@@ -1,0 +1,12 @@
+# dsh-delivery-native-open bundle patch.
+#
+# Inserts the host row into the profile's plugin roster. The browser half rides
+# this package's `dsh.client` manifest, so the client registry serves
+# `lib/client.js` and registers the delivery-card probe.
+#
+# Installed with `pnpm add link:<path>` from the profile does not apply this
+# patch automatically; the row below is the profile's own insertion point when
+# `dsh plugin add` is used instead. Do not insert the same id twice.
+- insert:
+    - id: delivery-native-open
+      name: 'dsh-delivery-native-open'

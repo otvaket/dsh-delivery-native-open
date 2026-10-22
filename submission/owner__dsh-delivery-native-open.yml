@@ -1,0 +1,12 @@
+# Submission for https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
+#
+# Copy this file to the awesome-dsh-plugin fork at:
+#   data/plugins/<owner>__dsh-delivery-native-open.yml
+# Replace <owner> with the GitHub account that owns the plugin repository.
+# The repo must be public, at least one day old, and carry the `dsh-plugin` topic.
+url: https://github.com/<owner>/dsh-delivery-native-open
+name: <owner>/dsh-delivery-native-open
+category: ui
+description:
+  en: Open a delivered file in its default desktop application from the delivery card, keeping a sidebar preview button.
+  zh: 点击交付卡片用本机默认程序打开文件，并保留侧栏预览按钮。
