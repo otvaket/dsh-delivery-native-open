@@ -15,7 +15,7 @@
 ## 安装
 
 ```bash
-dsh plugin --profile web add https://github.com/<owner>/dsh-delivery-native-open
+dsh plugin --profile web add https://github.com/otvaket/dsh-delivery-native-open
 ```
 
 开发期用本地链接安装：
